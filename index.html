@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="dropdown" data-dropdown>
+            <button id="level" data-dropdown-button>Easy ▾</button>
+            <div class="dropdown-menu">
+               <div class="difficulty">Easy</div>
+               <div class="difficulty">Medium</div>
+               <div class="difficulty">Hard</div>
+               <div class="difficulty">Impossible</div>
+            </div>
+        </div>
+
+        <div class="score">
+            <h1>Score</h1>
+            <h1 id="number">0</h1>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="game-board"></div>
+
+    <script src="game.js" defer type="module"></script>
+</body>
+
+</html>
